@@ -4,7 +4,7 @@
   /* вторичный цвет текста #212121 */
   --secondary-text-color: #212121;
   /* акцент #2196F3 */
-  --accent-text-color: #2196f3;
+  --accent-color: #2196f3;
   /* основной цвет заливки #E5E5E5 */
   /* --main-background-color: #e5e5e5; */
   /* вторичный цвет заливки #FFFFFF */
@@ -38,7 +38,7 @@ body {
   color: var(--main-text-color);
 }
 .accent-text {
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 }
 .logo-text {
   color: #000000;
@@ -49,11 +49,11 @@ body {
 /* смена цвета при hover focus */
 .hover-accent:hover,
 .focus-accent:focus {
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 }
 /* выделение текущей страницы в навигации */
 .link.current {
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 }
 /* вторичные цвета заливки */
 .secondary-background {
@@ -74,4 +74,10 @@ body {
 /* стили футера */
 .footer-link {
   color: var(--footer-link-color);
+}
+/* стили портфолио */
+.filter:hover,
+.filter:focus {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
 }
