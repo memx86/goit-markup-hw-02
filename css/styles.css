@@ -62,7 +62,9 @@ body {
 .hero-background {
   background-color: var(--hero-background-color);
 }
-
+.accent-background {
+  background-color: var(--accent-color);
+}
 /* стили героя */
 .hero-text {
   color: var(--hero-text-color);
