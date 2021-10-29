@@ -1,0 +1,73 @@
+:root {
+  /* основной цвет текста #757575 */
+  --main-text-color: #757575;
+  /* вторичный цвет текста #212121 */
+  --secondary-text-color: #212121;
+  /* акцент #2196F3 */
+  --accent-text-color: #2196f3;
+  /* основной цвет заливки #E5E5E5 */
+  /* --main-background-color: #e5e5e5; */
+  /* вторичный цвет заливки #FFFFFF */
+  --secondary-background-color: #ffffff;
+  /* цвет текста героя */
+  --hero-text-color: #ffffff;
+  /* заливка героя #2F303A */
+  --hero-background-color: #2f303a;
+  /* заливка команды */
+  --crew-background-color: #f5f4fa;
+  /* цвет ссылок в футере */
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+/* заливка команды #F5F4FA */
+
+/* стилизация всей страницы */
+body {
+  /* background-color: var(--main-background-color); */
+  color: var(--main-text-color);
+}
+/* убирает точки у списков */
+.list {
+  list-style: none;
+}
+/* убирает подчеркивание ссылок */
+.link {
+  text-decoration: none;
+}
+/* смена цвета текста */
+.main-text {
+  color: var(--main-text-color);
+}
+.accent-text {
+  color: var(--accent-text-color);
+}
+.logo-text {
+  color: #000000;
+}
+.secondary-text {
+  color: var(--secondary-text-color);
+}
+/* смена цвета при hover focus */
+.hover-accent:hover,
+.focus-accent:focus {
+  color: var(--accent-text-color);
+}
+/* вторичные цвета заливки */
+.secondary-background {
+  background-color: var(--secondary-background-color);
+}
+.hero-background {
+  background-color: var(--hero-background-color);
+}
+
+/* стили героя */
+.hero-text {
+  color: var(--hero-text-color);
+}
+/* стили команды */
+.crew {
+  background-color: var(--crew-background-color);
+}
+/* стили футера */
+.footer-link {
+  color: var(--footer-link-color);
+}
