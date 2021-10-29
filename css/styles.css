@@ -51,6 +51,10 @@ body {
 .focus-accent:focus {
   color: var(--accent-text-color);
 }
+/* выделение текущей страницы в навигации */
+.link.current {
+  color: var(--accent-text-color);
+}
 /* вторичные цвета заливки */
 .secondary-background {
   background-color: var(--secondary-background-color);
