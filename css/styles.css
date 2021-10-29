@@ -85,3 +85,6 @@ body {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
 }
+.portfolio-text {
+  color: var(--main-text-color);
+}
