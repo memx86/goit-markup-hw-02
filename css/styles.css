@@ -139,18 +139,33 @@ body {
   font-style: normal;
 }
 /* стили портфолио */
-/* смена цвета пунктов фильтра при hover focus */
+/* фильтр */
+/* смена цвета кнопок при hover focus */
 .filter:hover,
 .filter:focus,
 .filter:active {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
 }
-/* шрифты кнопок */
+/*стили текста кнопок*/
 .filter {
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* letter-spacing: inherit; */
+  letter-spacing: 0.03em;
 }
+/* собственно портфолио */
 /* стили текста в блоках портфолио */
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 .portfolio-text {
   color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
