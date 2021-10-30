@@ -104,6 +104,12 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+  color: var(--accent-color);
+  background-color: var(--hero-text-color);
+}
 /* стили особенностей */
 .header-feature {
   font-weight: 700;
