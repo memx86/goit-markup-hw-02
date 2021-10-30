@@ -18,12 +18,20 @@
   /* цвет ссылок в футере */
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
-/* заливка команды #F5F4FA */
 
 /* стилизация всей страницы */
+
+/* roboto 400,500,700,900 */
+/* raleway 700 */
 body {
   /* background-color: var(--main-background-color); */
   color: var(--main-text-color);
+  /* системные шрифты font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; */
+  font-family: roboto, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, noto, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* убирает точки у списков */
 .list {
@@ -65,17 +73,70 @@ body {
 .accent-background {
   background-color: var(--accent-color);
 }
+/* стили шапки */
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.header-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 /* стили героя */
 .hero-text {
   color: var(--hero-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: var(--hero-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+/* стили особенностей */
+.header-feature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+/* стили чем мы занимаемся */
+.header-us {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 /* стили команды */
 .crew {
   background-color: var(--crew-background-color);
 }
+.crew h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.crew p {
+  font-size: 16px;
+  line-height: 1.19;
+}
 /* стили футера */
 .footer-link {
   color: var(--footer-link-color);
+  font-style: normal;
+}
+.footer-text {
+  color: var(--hero-text-color);
+  font-style: normal;
 }
 /* стили портфолио */
 /* смена цвета пунктов фильтра при hover focus */
@@ -85,6 +146,11 @@ body {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
 }
+/* шрифты кнопок */
+.filter {
+  font-family: inherit;
+}
+/* стили текста в блоках портфолио */
 .portfolio-text {
   color: var(--main-text-color);
 }
