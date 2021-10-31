@@ -103,6 +103,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus,
@@ -153,7 +154,7 @@ body {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
 }
-/*стили текста кнопок*/
+/*стили кнопок*/
 .filter {
   font-family: inherit;
   font-weight: 500;
@@ -161,6 +162,7 @@ body {
   line-height: 1.6;
   /* letter-spacing: inherit; */
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 /* собственно портфолио */
 /* стили текста в блоках портфолио */
