@@ -5,6 +5,8 @@
   --secondary-text-color: #212121;
   /* акцент #2196F3 */
   --accent-color: #2196f3;
+  /* цвет лого */
+  --logo-text-color: #000000;
   /* основной цвет заливки #E5E5E5 */
   /* --main-background-color: #e5e5e5; */
   /* вторичный цвет заливки #FFFFFF */
@@ -41,6 +43,18 @@ body {
 .link {
   text-decoration: none;
 }
+/* скрывает визуально контент */
+.concealer {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
 /* смена цвета текста */
 .main-text {
   color: var(--main-text-color);
@@ -49,7 +63,7 @@ body {
   color: var(--accent-color);
 }
 .logo-text {
-  color: #000000;
+  color: var(--logo-text-color);
 }
 .secondary-text {
   color: var(--secondary-text-color);
