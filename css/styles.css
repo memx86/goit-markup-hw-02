@@ -68,7 +68,7 @@ body {
 .secondary-text {
   color: var(--secondary-text-color);
 }
-/* смена цвета при hover focus */
+/* смена цвета на accent при hover focus */
 .hover-accent:hover,
 .focus-accent:focus {
   color: var(--accent-color);
@@ -96,7 +96,6 @@ body {
 }
 .header-text {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -126,13 +125,13 @@ body {
   background-color: var(--hero-text-color);
 }
 /* стили особенностей */
-.header-feature {
+.feature-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.14;
 }
 /* стили чем мы занимаемся */
-.header-us {
+.crew-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -140,16 +139,14 @@ body {
 /* стили команды */
 .crew {
   background-color: var(--crew-background-color);
+  font-size: 16px;
+  line-height: 1.19;
 }
 .crew h3 {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  font-size: inherit;
 }
-.crew p {
-  font-size: 16px;
-  line-height: 1.19;
-}
+
 /* стили футера */
 .footer-link {
   color: var(--footer-link-color);
